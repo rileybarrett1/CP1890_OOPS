@@ -13,3 +13,7 @@ print(f"{fp_number3:.0%}")
 print(f"{fp_number3:.1%}")
 
 print(f"{dc_number:d}")
+
+#formatting string literals
+print(f"{"description":15}")
+print(f"{"description":15}{'price':>10}{'qty':>5}")
